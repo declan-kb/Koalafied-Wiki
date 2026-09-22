@@ -6,47 +6,69 @@
 
 To pass this requirement, you must be able to point out ALL of the listed components on a chosen robot (lemon launcher for now). Almost all of the components are found in the bellypan, those located elsewhere will be indicated below. [<u>WPILib Docs</u>](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html) has some extra/different information about alternative components.
 
-<img src="./media/image18.png" style="width:2.70767in;height:2.66003in" />
 
-[<u>roboRIO</u>](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html)
+<div class="figure-row" markdown="block">
 
-<img src="./media/image11.png" style="width:3.63021in;height:3.63021in" />
+<figure markdown="span">
+![roboRIO](./media/image18.png){ width="260" }
+<figcaption markdown="span">[roboRIO](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html)</figcaption>
+</figure>
 
-[<u>PDH/PDP</u>](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html)
+<figure markdown="span">
+![PDH/PDP](./media/image11.png){ width="349" }
+<figcaption markdown="span">[PDH/PDP](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html)</figcaption>
+</figure>
 
-<img src="./media/image13.png" style="width:3.11698in;height:3.28612in" />
+<figure markdown="span">
+![Radio (kicker side underneath turret)](./media/image13.png){ width="299" }
+<figcaption markdown="span">[Radio (kicker side underneath turret)](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html)</figcaption>
+</figure>
 
-[<u>Radio (kicker side underneath turret)</u>](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html)
+<figure markdown="span">
+![Main breaker (climber, next to battery)](./media/image8.png){ width="197" }
+<figcaption markdown="span">[Main breaker (climber, next to battery)](https://www.amazon.ca/Bussmann-Hi-Amp-Reset-Circuit-Breaker/dp/B0024JMIRI)</figcaption>
+</figure>
 
-<img src="./media/image8.png" style="width:2.05374in;height:2.65104in" />
+<figure markdown="span">
+![VRM](./media/image7.png){ width="284" }
+<figcaption markdown="span">[VRM](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html)</figcaption>
+</figure>
 
-[<u>Main breaker (climber, next to battery)</u>](https://www.amazon.ca/Bussmann-Hi-Amp-Reset-Circuit-Breaker/dp/B0024JMIRI)
+<figure markdown="span">
+![Motor controller (specifically the back of the motor)](./media/image12.png){ width="311" }
+<figcaption markdown="span">[Motor controller (specifically the back of the motor)](https://store.ctr-electronics.com/products/kraken-x60)</figcaption>
+</figure>
 
-<img src="./media/image7.png" style="width:2.95313in;height:2.53397in" />
+</div>
 
-[<u>VRM</u>](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html)
-
-<img src="./media/image12.png" style="width:3.24033in;height:2.45244in" />
-
-[<u>Motor controller (specifically the back of the motor)</u>](https://store.ctr-electronics.com/products/kraken-x60)
 
 OrangePi + transformer: unfortunately, I don't have a photo. The OrangePi is in a 3D-printed box, with a fan. The transformer is a little black box connecting the PDH to the OrangePi.
 
-<img src="./media/image21.png" style="width:2.0625in;height:1.83953in" />
 
-[<u>Pigeon (2.0)</u>](https://store.ctr-electronics.com/products/pigeon-2)
+<div class="figure-row" markdown="block">
 
-<img src="./media/image16.png" style="width:2.27303in;height:2.31544in" />
+<figure markdown="span">
+![Pigeon (2.0)](./media/image21.png){ width="198" }
+<figcaption markdown="span">[Pigeon (2.0)](https://store.ctr-electronics.com/products/pigeon-2)</figcaption>
+</figure>
 
-[<u>CANivore</u>](https://store.ctr-electronics.com/products/canivore)
+<figure markdown="span">
+![CANivore](./media/image16.png){ width="218" }
+<figcaption markdown="span">[CANivore](https://store.ctr-electronics.com/products/canivore)</figcaption>
+</figure>
 
-<img src="./media/image17.png" style="width:2.21219in;height:2.96093in" />
+<figure markdown="span">
+![RSL (Corner next to turret)](./media/image17.png){ width="212" }
+<figcaption markdown="span">[RSL (Corner next to turret)](https://frcelectrical.org/FRC-Control-System)</figcaption>
+</figure>
 
-[<u>RSL (Corner next to turret)</u>](https://frcelectrical.org/FRC-Control-System)
+<figure markdown="span">
+![CANCoder (on top of each swerve module)](./media/image2.png){ width="218" }
+<figcaption markdown="span">[CANCoder (on top of each swerve module)](https://store.ctr-electronics.com/products/cancoder)</figcaption>
+</figure>
 
-<img src="./media/image2.png" style="width:2.26563in;height:1.94638in" />
+</div>
 
-[<u>CANCoder (on top of each swerve module)</u>](https://store.ctr-electronics.com/products/cancoder)
 
 **Explain the function of core components of the electrical system**
 

@@ -2,21 +2,23 @@
 
 **Overall requirement:** Show competency in making Anderson Powerpole (‘mini Anderson’) connectors.
 
-<img src="./media/image15.png" style="width:6.5in;height:1.70833in" />
-
-A diagram of the powerpole crimp for open crimps. Source: [<u>FRCElectrical</u>](https://frcelectrical.org/Making-Connections/#anderson-powerpole)
+<figure markdown="span">
+![FRCElectrical](./media/image15.png){ width="480" }
+<figcaption markdown="span">A diagram of the powerpole crimp for open crimps. Source: [FRCElectrical](https://frcelectrical.org/Making-Connections/#anderson-powerpole)</figcaption>
+</figure>
 
 **Explain and demonstrate the wire preparation required for powerpole connectors**
 
-Wires should be stripped back so that the gap between the crimp and the insulation is minimal (\<2mm), when the wire is positioned correctly, as in the diagram. Correctly stripping the wire can prevent too large a gap, having wire past the stop, and reduces the chance for insulation under the crimp, so is essential in setting up a good crimp. Students should be able to do this without prompting or assistance.
+Wires should be stripped back so that the gap between the crimp and the insulation is minimal (<2mm), when the wire is positioned correctly, as in the diagram. Correctly stripping the wire can prevent too large a gap, having wire past the stop, and reduces the chance for insulation under the crimp, so is essential in setting up a good crimp. Students should be able to do this without prompting or assistance.
 
 **Demonstrate the process of crimping Anderson powerpole pins to prepared wires**
 
 To crimp the connector, place the wire in the crimp. For open 45A crimps, pre-bending the ends of the crimp inwards can help to make the crimping easier. Insert into the crimping tool, with the end of the crimp fully inserted into the slot so it does not get bent by the crimping action. In the case of bonded/dual-core wire, orient the crimp so the shroud will match the orientation of the wires. The correct orientation is shown below.
 
-<img src="./media/image20.png" style="width:5.11979in;height:3.20807in" />
-
-Source: [<u>FRCElectrical</u>](https://frcelectrical.org/Making-Connections/#anderson-powerpole)
+<figure markdown="span">
+![FRCElectrical](./media/image20.png){ width="480" }
+<figcaption markdown="span">Source: [FRCElectrical](https://frcelectrical.org/Making-Connections/#anderson-powerpole)</figcaption>
+</figure>
 
 Once the orientation of the crimp is correct, squeeze the crimp tool fully closed. Students should be able to do this without prompting or assistance.
 

@@ -1,0 +1,107 @@
+/* Match Team Koalafied's main site (../koalafied-website/assets/css/site.css) —
+   same token values, ported to Material for MkDocs' CSS variables. */
+
+:root, [data-md-color-scheme="default"] {
+  --md-primary-fg-color: #0a7770;
+  --md-primary-fg-color--light: #44a5a7;
+  --md-primary-fg-color--dark: #204a72;
+  --md-primary-bg-color: #fff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+
+  --md-accent-fg-color: #0a7770;
+  --md-accent-fg-color--transparent: rgba(10, 119, 112, 0.1);
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: #fff;
+
+  --md-default-fg-color: #20222f;
+  --md-default-fg-color--light: #4a4e63;
+  --md-default-fg-color--lighter: #5f6278;
+  --md-default-fg-color--lightest: #e6e6e2;
+
+  --md-typeset-color: #20222f;
+  --md-typeset-a-color: #0a7770;
+
+  --md-code-fg-color: #20222f;
+  --md-code-bg-color: #eeeeeb;
+}
+
+body, .md-typeset {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4,
+.md-header__topic, .md-nav__title, .md-ellipsis, .md-nav__link {
+  font-family: "Inter Tight", "Helvetica Neue", Arial, sans-serif;
+}
+.md-typeset h1 { font-weight: 800; letter-spacing: -0.02em; }
+.md-typeset h2, .md-typeset h3 { font-weight: 600; letter-spacing: -0.02em; }
+.md-typeset code, .md-typeset pre, .md-typeset kbd {
+  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* Images — pulled out of the docx as bare <img> tags, now grouped into
+   figure/figcaption (see the split script) so they read like the main
+   site's .section-photo treatment instead of a raw file dump. Several
+   small component photos in a row used to stack one-per-line, forcing a
+   long scroll for what's really a small gallery — flex-wrap lets them
+   flow left to right like a grid instead, each figure still centered on
+   its own image + caption. */
+.md-typeset .figure-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  margin: 1.2em 0;
+}
+.md-typeset .figure-row figure {
+  margin: 0;
+  width: 190px;
+}
+/* Grouped photos come from the docx at wildly different native sizes
+   (197px-349px, mixed aspect ratios), which made the row look ragged
+   instead of a grid. Forcing a uniform square frame with object-fit:
+   contain lines them up regardless of source size, without cropping —
+   this overrides the per-image width from the split script, which only
+   matters for a solo figure now. */
+.md-typeset .figure-row img {
+  width: 190px;
+  height: 190px;
+  object-fit: contain;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* figure is shrink-wrapped to its image's width (Material sets
+   `display: table`), so text-align: center alone only centers content
+   inside that already-image-width box, not the box itself on the page —
+   margin: auto centers the figure, text-align keeps the caption centered
+   under it. */
+.md-typeset figure {
+  margin: 1.2em auto;
+  text-align: center;
+}
+/* No background fill here: some source PNGs are transparent and some
+   have a baked-in white background (see docs/media) — filling behind
+   them made the transparent ones show a visible gray box while the
+   opaque ones blended into the page. Leaving it unset lets both match
+   the white page behind them, so only the border is visible either way. */
+.md-typeset figure img {
+  display: inline-block;
+  border: 1px solid #e6e6e2;
+  border-radius: 4px;
+}
+.md-typeset figcaption {
+  margin-top: 9px;
+  font-size: 13.5px;
+  color: #4a4e63;
+  line-height: 1.4;
+}
+
+/* Standalone equations (a paragraph whose only content is the formula,
+   e.g. "P = VI") render as inline MathJax spans, left-aligned like any
+   other paragraph — center just those, not equations inline within a
+   sentence like "a 120Ω resistor". The eq-block class is set in
+   javascripts/mathjax.js, since CSS :only-child can't tell "only element
+   child" apart from "only element child, plus a sentence of text". */
+.md-typeset p.eq-block {
+  text-align: center;
+}

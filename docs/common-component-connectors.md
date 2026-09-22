@@ -16,13 +16,21 @@ To connect wires to PDH slots, simply open the lever and insert the wire as far 
 
 Students should be able to use the ferrule crimp tool to crimp a ferrule onto a 12AWG (motor power) wire and a 22AWG (CAN) wire, without prompting. Students may ask for confirmation on sizing for 22AWG ferrule.
 
-<img src="./media/image10.png" style="width:3.11904in;height:3.11904in" />
 
-[<u>Ferrule crimping tool</u>](https://www.jaycar.com.au/4-point-hand-crimping-tool-for-bootlace-ferrules/p/TH1964)
+<div class="figure-row" markdown="block">
 
-<img src="./media/image4.png" style="width:1.76563in;height:0.99424in" />
+<figure markdown="span">
+![Ferrule crimping tool](./media/image10.png){ width="299" }
+<figcaption markdown="span">[Ferrule crimping tool](https://www.jaycar.com.au/4-point-hand-crimping-tool-for-bootlace-ferrules/p/TH1964)</figcaption>
+</figure>
 
-[<u>Ferrule</u>](https://au.rs-online.com/web/p/bootlace-ferrules/2503438)
+<figure markdown="span">
+![Ferrule](./media/image4.png){ width="170" }
+<figcaption markdown="span">[Ferrule](https://au.rs-online.com/web/p/bootlace-ferrules/2503438)</figcaption>
+</figure>
+
+</div>
+
 
 **Demonstrate ability to connect wires to PDP slots (WAGO Cage Clamp)**
 

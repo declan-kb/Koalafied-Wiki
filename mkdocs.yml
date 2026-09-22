@@ -2,6 +2,23 @@ site_name: Koalafied Wiki
 use_directory_urls: false
 theme:
   name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  font: false
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - search.share
 
 nav:
   - Home: index.md
@@ -22,9 +39,16 @@ nav:
   - Mechanism Wiring Layout: mechanism-wiring-layout.md
 
 markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences
+
+extra_css:
+  - https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;0,800;1,800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/mathjax.js

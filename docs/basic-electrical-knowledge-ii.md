@@ -30,19 +30,33 @@ These colours are consistent almost everywhere they appear on the robot, with a 
 
 **Demonstrate the use of a multimeter for measuring voltage, resistance and continuity**
 
-To measure voltage, students should be able to use the multimeter to measure the voltage of a battery, using the probes to contact across the battery plug terminals. For resistance, students should be able to measure a 120$\Omega$ resistor, and demonstrate checking the robot frame isolation, by checking the resistance between each of the main power terminals, and various points on the robot frame. To test continuity, students will be given a length of bonded wire, and told to check each core. When using the multimeter it is important to **NEVER measure current!!** If anything is done incorrectly it can very easily damage the (very expensive) multimeter.
+To measure voltage, students should be able to use the multimeter to measure the voltage of a battery, using the probes to contact across the battery plug terminals. For resistance, students should be able to measure a 120$\Omega$ resistor, and demonstrate checking the robot frame isolation, by checking the resistance between each of the main power terminals, and various points on the robot frame. To test continuity, students will be given a length of bonded wire, and told to check each core.
 
-**Identify common tools used in electrical work and their purpose**<img src="./media/image19.png" style="width:2.31771in;height:2.31771in" />
+!!! danger
+    When using the multimeter it is important to **NEVER measure current!!** If anything is done incorrectly it can very easily damage the (very expensive) multimeter.
 
-[<u>Flush/side cutters</u>](https://www.jaycar.com.au/precision-127mm-angled-side-cutters/p/TH1897): cutting wire, stripping very large (battery) wire.
+**Identify common tools used in electrical work and their purpose**
 
-<img src="./media/image5.png" style="width:2.51661in;height:3.02604in" />
 
-[<u>Wire strippers</u>](https://autozoneaustralia.com.au/product/wire-cutter-strippers/): strips insulation from wires for soldering/connectors. Different parts of the cutter correspond to different wire sizes.
+<div class="figure-row" markdown="block">
 
-<img src="./media/image14.png" style="width:3.43057in;height:2.6444in" />
+<figure markdown="span">
+![Flush/side cutters](./media/image19.png){ width="223" }
+<figcaption markdown="span">[Flush/side cutters](https://www.jaycar.com.au/precision-127mm-angled-side-cutters/p/TH1897): cutting wire, stripping very large (battery) wire.</figcaption>
+</figure>
 
-[<u>Anderson Powerpole crimp tool</u>](https://powerwerx.com/powerpolebag-tricrimp-powerpole-case-gear-bag): Crimps Anderson connectors onto stripped wire.
+<figure markdown="span">
+![Wire strippers](./media/image5.png){ width="242" }
+<figcaption markdown="span">[Wire strippers](https://autozoneaustralia.com.au/product/wire-cutter-strippers/): strips insulation from wires for soldering/connectors. Different parts of the cutter correspond to different wire sizes.</figcaption>
+</figure>
+
+<figure markdown="span">
+![Anderson Powerpole crimp tool](./media/image14.png){ width="329" }
+<figcaption markdown="span">[Anderson Powerpole crimp tool](https://powerwerx.com/powerpolebag-tricrimp-powerpole-case-gear-bag): Crimps Anderson connectors onto stripped wire.</figcaption>
+</figure>
+
+</div>
+
 
 Most other electrical tools are crimp tools for other connector types, which will be covered as they arise.
 

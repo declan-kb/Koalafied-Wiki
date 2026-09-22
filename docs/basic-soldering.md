@@ -4,21 +4,24 @@
 
 **Understand the hazards associated with use of a soldering iron (and heat gun)**
 
-**ALWAYS assume the iron is hot!!!**
+!!! danger
+    **ALWAYS assume the iron is hot!!!**
 
 Soldering irons get very hot, and therefore pose a burn hazard if handled incorrectly. In the included image, everything past the blue handle in the above image is too hot to touch when the iron is on.
 
-<img src="./media/image6.png" style="width:3.33854in;height:2.35945in" />
-
-[<u>Soldering iron</u>](https://en.goot.jp/products/detail/kx-100r) (excluding base station)
+<figure markdown="span">
+![Soldering iron](./media/image6.png){ width="320" }
+<figcaption markdown="span">[Soldering iron](https://en.goot.jp/products/detail/kx-100r) (excluding base station)</figcaption>
+</figure>
 
 To reduce the risk of accident, whenever you are not using the iron, it MUST be stored in the holster attached to the base of the soldering iron. When soldering large wires, the wire can heat to the point of being too hot to hold. If the wire begins to become hot as you hold it, stop and wait for the wire to cool before continuing.
 
 Similar to the soldering iron, the heat gun presents hazards both in the ‘hot end’, and heating of the work piece. Unlike the iron, it does not have a cover/holster for the hot end, so it must instead be placed such that the chance of accidental contact is minimised.
 
-<img src="./media/image22.png" style="width:3.52604in;height:3.52604in" />
-
-[<u>Heat gun</u>](https://www.totaltools.com.au/137178-makita-2000w-50-650-c-variable-heat-gun-kit-hg6530vkit)
+<figure markdown="span">
+![Heat gun](./media/image22.png){ width="338" }
+<figcaption markdown="span">[Heat gun](https://www.totaltools.com.au/137178-makita-2000w-50-650-c-variable-heat-gun-kit-hg6530vkit)</figcaption>
+</figure>
 
 Separate to the safety concerns of the soldering iron, the heat can also damage plastic components, so be careful when soldering wires near 3D prints.
 
@@ -46,9 +49,12 @@ The process of soldering wires together can be summarised in the following steps
 
 7.  Apply solder until it has joined the two wires, but without excess solder causing the joint to bulge.
 
-8.  Wait for the joint to cool, then slide the heat shrink over the joint, and shrink it with the barrel of the iron, or the heat gun.<img src="./media/image9.png" style="width:3.35146in;height:3.77604in" />
+8.  Wait for the joint to cool, then slide the heat shrink over the joint, and shrink it with the barrel of the iron, or the heat gun.
 
-Wire-wire soldering. Source: [<u>FRCElectrical</u>](https://frcelectrical.org/Making-Connections/)
+<figure markdown="span">
+![FRCElectrical](./media/image9.png){ width="322" }
+<figcaption markdown="span">Wire-wire soldering. Source: [FRCElectrical](https://frcelectrical.org/Making-Connections/)</figcaption>
+</figure>
 
 **Demonstrate ability to strip, twist, solder, and heat-shrink a CAN bus wire**
 

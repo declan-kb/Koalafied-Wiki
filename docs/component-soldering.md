@@ -26,9 +26,10 @@ Execute the process described in the above image, following all safety rules and
 
 For through-hole soldering, the element being attached to the PCB can be either a wire or a component, e.g. a resistor. In the case of a wire, the wire must be stripped, ideally as little as possible while having ~1-2mm of bare wire exposed on the bottom of the PCB. Once the wire is prepared, follow the instructions in the image below.
 
-<img src="./media/image3.png" style="width:6.5in;height:3.65278in" />
-
-Image from [<u>SparkFun</u>](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering)
+<figure markdown="span">
+![SparkFun](./media/image3.png){ width="480" }
+<figcaption markdown="span">Image from [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering)</figcaption>
+</figure>
 
 **Demonstrate ability to solder a wire to a through-hole connection**
 

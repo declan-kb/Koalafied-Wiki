@@ -6,9 +6,10 @@
 
 Circuits with multiple devices can be wired either in series or in parallel. Each case has different characteristics regarding the voltage across each device, and the current running through them.
 
-<img src="./media/image1.png" style="width:6.5in;height:3.25in" />
-
-[<u>Series and Parallel circuits</u>](https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/what-are-series-and-parallel-circuits/)
+<figure markdown="span">
+![Series and Parallel circuits](./media/image1.png){ width="480" }
+<figcaption markdown="span">[Series and Parallel circuits](https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/what-are-series-and-parallel-circuits/)</figcaption>
+</figure>
 
 In a series circuit, since the same wire connects through all devices, the current through each device must be the same. As there is only one wire, a fault in one device means loss of power to all devices. The voltage is split across each device according to the resistance of each. More devices in series increases total resistance, so less current flows, decreasing total power.
 
@@ -22,4 +23,5 @@ Because almost every device on the robot runs on 12V, series wiring for power is
 
 As a signal wiring system, the CAN bus is a little different. Each device is wired in series along each side of the CAN bus (yellow/green), but the devices do not cause a voltage drop by consuming power, they read the voltage difference between the two wires to read data, or change the voltage difference to send data out. At each end of the CAN bus, there is a 120Ω resistor between the two wires\*, which is often inside a specific device (roboRIO, PDH, CANivore).
 
-\*Why this is done and how it works is the kind of thing you learn in third year uni, and not particularly important, so don’t worry about it.
+!!! note
+    \*Why this is done and how it works is the kind of thing you learn in third year uni, and not particularly important, so don’t worry about it.
