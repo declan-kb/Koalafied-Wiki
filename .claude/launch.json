@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "mkdocs",
-      "runtimeExecutable": ".venv/bin/mkdocs",
-      "runtimeArgs": ["serve"],
-      "port": 8000
+      "name": "docs",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "docs:dev"],
+      "port": 5173
     }
   ]
 }
