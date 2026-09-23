@@ -1,87 +1,82 @@
 # Onshape
 
-![Onshape logo](./images/onshape-logo.png)
+Onshape is the CAD (computer-aided design) program we use to design our robot. It runs in your web browser, so there's nothing to install, and the whole team can work on the same design at the same time. That's why so many FRC teams use it.
 
-CAD is central to how we design our robots. Even if you are not designing the robot it is important to understand the basics of how the CAD works for many reasons, for example, understanding how it works, know how to build it, or getting images for media.
+Even if you don't plan to design parts, it's worth learning the basics. You'll use the CAD to understand how the robot works, to work out how to build it, and to get images for media.
 
-Onshape is an online CAD system that runs in your browser and is used by many FRC teams because it is particularly excellent at allowing a team to share and work on a design together.
+This page takes you from no account to finding your way around our robot CAD.
 
-## Getting Started
+## 1. Create Your Account
 
-To get started with Onshape you need to create a free account with the following instructions.
+1. Go to [onshape.com/education/sign-up](https://www.onshape.com/en/education/sign-up).
+2. Fill in your details and click **Create EDU Account**.
+3. Fill in your school's details, agree to the terms and click **Create Account**. When it asks what you plan to use Onshape for, you can just put 'FIRST Robotics'.
+4. Open the activation email Onshape sends you and click the link.
+5. Create your username and password.
+6. Post in **#team-mechanical** on Slack, or email a mentor (copy in your parent), and ask to be added to the Koalafied Onshape team. You need this to see our robot CAD.
 
-### Creating Your Account
+## 2. Install the FRCDesignApp
 
-1. Navigate to [onshape.com/education/sign-up](https://www.onshape.com/en/education/sign-up)
-2. Fill in the information on this page and click 'Create EDU Account'
-3. Fill in the information for your school and agree to the terms then click 'Create Account'. You can simply put 'FIRST Robotics' for what you plan to use Onshape for
-4. Check the email you used to sign up in the earlier step
-5. Open the Onshape account activation email and click the link to activate your account
-6. You will be sent to a page where you can now create your username and password
-7. Post to #team-mechanical on Slack or email a mentor (copy to your parent) and someone will add you to the Koalafied OnShape team so you can access our team robot CAD.
+The FRCDesignApp adds a library of standard FRC parts, like motors, gears, bearings and extrusion, so you can insert them into your designs instead of modelling them yourself. Install it by following [these instructions](https://frcdesign.org/learning-course/course-setup/required-course-tools/part-library/).
 
-For building with standard FRC parts you will need to install the FRCDesignApp plugin with the instructions from [this page](https://frcdesign.org/learning-course/course-setup/required-course-tools/part-library/).
+## 3. Learn the Basics
 
-## Learning Onshape
+Start with the [FRCDesign.org Learning Course](https://frcdesign.org/learning-course/). It was written by people from many FRC teams and teaches Onshape through designing robot parts, so it's the best place to begin. Alternatively, you can use [Onshape's own courses](#onshape-learning-paths).
 
-The best way to learn OnShape is to do a combination of the following.
+Mentors can assign you the course exercises through Onshape's classroom feature. This lets us see your progress and notice if you get stuck.
 
-- Do the Onshape online training described under ‘Learning Paths’ below
-- FRCdesign.org
-- Try to use it to design something. Mentors will have ideas.
-- Look at existing designs
-- Ask questions on Slack and at team meetings
+You don't need to finish the whole course before you start designing. Do a few lessons, then try to design something. It makes much more sense when you see it in action. Mentors will have ideas for what to design.
 
-The best approach is to do some of the training and then try to apply it to something you want to do. It makes much more sense when you see it in action.If you have anything that does not make sense you can try the follow:
+### Moving Around
 
-- Googling it
-- Asking a question on Slack
-- Asking a question at a team meeting
+| Control | What it does |
+|---------|--------------|
+| Right mouse drag | Rotate the view |
+| Middle mouse drag | Pan |
+| Scroll wheel | Zoom |
+| Space | Clear the selection |
+| N | Look straight at the sketch plane |
 
-Remember there are no stupid questions!
+For the full list, click **?** on the right of the title bar, or see [Onshape's shortcut keys](https://cad.onshape.com/help/Content/shortcut_keys.htm).
 
-### FRCDesign.org
+### Getting Help
 
-[FRCDesign.org](http://frcdesign.org) is a comprehensive learning guide and technical reference for FRC design using Onshape. It was created by people from many FRC teams and teaches how to do robot design in Onshape. Feel free to look around the whole site, but you probably want to start with the [Learning Course](https://frcdesign.org/learning-course/).
+If something doesn't make sense:
 
-Onshape has a ‘classroom’ feature that allows mentors to assign the FRCDesign.org exercises to you and know when you have completed them. We use this to track student progress and know if you get stuck.
+1. Google it. Most Onshape questions have been answered before.
+2. Ask on Slack.
+3. Ask at a team meeting.
 
-### Onshape Learning Paths
+## 4. Look at Real Robots
 
-OnShape has a lot of incredibly good free training materials. These are not specific to robotics so [FRCDesign.org](http://frcdesign.org) is a better place to start, but if you are keen this is a good way to learning some more details about how Onshape works. There are a number of courses arranged into [Learning Paths](https://learn.onshape.com/learn/dashboard?labels=%5B%22Learning%20Pathways%22%5D&values=%5B%22All%22%5D). Each course involves a number of short videos with occasional quizzes and some longer exercises.
+Looking through a finished robot is one of the best ways to learn how parts and assemblies fit together. Start with ours:
 
-If you go to the Learner Dashboard in Onshape you will find the following Learning Pathways. The first is the most important and the next two are also very important to how we use Onshape to design a whole robot. Configurations have some uses and the last two are probably not very useful for FRC robots.
+- [2026 Rebuilt - Lemon Launcher](https://cad.onshape.com/documents/f777e2d9e964fbf60835e3da/w/235a7544344677d127d5777e/e/62d9f4aee1b8ab6f94113ccb)
+- [2025 Reefscape - Locked In](https://cad.onshape.com/documents/102a531f9f12f2de5a27c2c0/v/ef274877a9ed6af3e292f405/e/23f5a1bc9ff04b58a115f348)
+- [2023 Charged Up](https://cad.onshape.com/documents/cc5eccf3b82e6a0c4a353be1/w/9fce9eb2fa7de646e453ab5d/e/3f0e562f19c3a56c6f651c6d)
+- [2022 Rapid React](https://cad.onshape.com/documents/910e9a18fff81f80b3abc55a/w/8ad7f0ddf213a39ad8e854ea/e/ea93a76ae1db6cb29f6f2991)
 
-- **Onshape Fundamentals: CAD** - This is the most important pathway and covers all the basic things about OnShape.
-- **OnShape Fundamentals: Data Management** - Describes more advanced concepts for how to organise documents and work on them collaboratively. This is very important for us as a team, but it a lot to get you head around at first.
-- **Top-Down Design** - Describes how to model a complex object, like a whole robot, starting with the basic shape and then filling in the details.
-- **Onshape Configurations** - Describes how to develop a range of products with different sizes or other parameters. This is useful for reusable parts of different sizes, like pulleys and it is used by MKCad for configuring standard FRC parts.
-- **CAD Basics** - An introduction to CAD. This course is not really required. The important material is covered better in other pathways. It has some CAD history, if you are really interested in that!
-- **Advanced Part and Surfacing Design** - Describes how to design part with complex curved surfaces. Probably very cool, be not really useful for most FRC robot design.
+Other teams publish their CAD too, for example [Citrus Circuits 2022](https://cad.onshape.com/documents/5171f477c0b2b518f0252641/w/cbf30882b3a7cbd588a0ad5a/e/a8d11c6d37daaefe163e2d01). This [spreadsheet](https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit?usp=sharing) lists many more, sorted by year and team number.
 
-### Shortcut Keys
+## 5. Before You Work on Team CAD
 
-Onshape has a lot of shortcut keys. A list is available from the help menu in Onshape (‘?’ on the right of the title bar or [this page](https://cad.onshape.com/help/Content/shortcut_keys.htm)). Knowing some is essential. The following are the most critical keys and mouse controls.
+Read [CAD Standards](./cad-standards). It explains how we name, organise and version our documents so everyone can find their way around them. When you think a design is finished, go through the [CAD Checklist](./cad-checklist).
 
-- Right mouse - rotate view
-- Middle mouse - pan
-- Space - clear selection
-- N - rotate view normal to sketch plane
+Once you're comfortable, [Feature Scripts](./feature-scripts) will help you work faster.
 
-## Hardware Requirements
+## Onshape Learning Paths
 
-Onshape seems to work pretty well on most hardware, it is apparently more important to have a good internet connection. They have some recommendations [here](https://cad.onshape.com/help/Content/webgl.htm). To check your drawing speed you can go [here](https://cad.onshape.com/check) (the check takes 20s or so).
+Onshape has its own training, organised into [Learning Paths](https://learn.onshape.com/learn/dashboard?labels=%5B%22Learning%20Pathways%22%5D&values=%5B%22All%22%5D). Each is a series of short videos with quizzes and exercises. They aren't specific to robots, but they go into more detail on how Onshape works.
 
-## Examples of FRC Onshape projects
+| Learning Path | Worth doing? |
+|---------------|--------------|
+| Onshape Fundamentals: CAD | **Yes, the most important.** Covers all the basics |
+| Onshape Fundamentals: Data Management | **Yes.** How to organise documents and work on them together. Very important for how we work, but a lot to take in at first |
+| Top-Down Design | **Yes.** How to design something complex, like a whole robot, from its basic shape down to the details |
+| Onshape Configurations | Optional. Making one part in several sizes, like pulleys. The FRCDesignApp uses this for its parts |
+| CAD Basics | Skip. Mostly covered better elsewhere, plus some CAD history |
+| Advanced Part and Surfacing Design | Skip. Complex curved surfaces, which FRC robots rarely need |
 
-[Koalafied 2023 Charged Up Robot](https://cad.onshape.com/documents/cc5eccf3b82e6a0c4a353be1/w/9fce9eb2fa7de646e453ab5d/e/3f0e562f19c3a56c6f651c6d)
+## Is My Laptop Good Enough?
 
-[Koalafied 2022 Rapid React Robot](https://cad.onshape.com/documents/910e9a18fff81f80b3abc55a/w/8ad7f0ddf213a39ad8e854ea/e/ea93a76ae1db6cb29f6f2991)
-
-**Citrus Circuits 2022**
-
-<https://cad.onshape.com/documents/5171f477c0b2b518f0252641/w/cbf30882b3a7cbd588a0ad5a/e/a8d11c6d37daaefe163e2d01>
-
-**Spreadsheet with links to Onshape projects sorted by year and team number**
-
-<https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit?usp=sharing>
+Onshape works on most laptops. A good internet connection matters more than a powerful computer. If it feels slow, run Onshape's [graphics check](https://cad.onshape.com/check) (about 20 seconds) and see their [hardware recommendations](https://cad.onshape.com/help/Content/webgl.htm).

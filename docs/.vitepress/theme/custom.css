@@ -78,5 +78,12 @@
 /* Checklists ("- [ ] item"): checkbox instead of a bullet */
 .vp-doc li:has(> input[type="checkbox"]) {
   list-style: none;
-  margin-left: -1.2em;
+  position: relative;
+}
+/* Box sits in the bullet gutter so wrapped lines stay indented */
+.vp-doc li > input[type="checkbox"] {
+  position: absolute;
+  left: -1.4em;
+  top: 0.4em;
+  margin: 0;
 }

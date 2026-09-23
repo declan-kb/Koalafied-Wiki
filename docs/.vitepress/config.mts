@@ -114,14 +114,30 @@ export default defineConfig({
       '/mechanical/': [
         {
           text: 'Mechanical',
+          items: [{ text: 'Overview', link: '/mechanical/' }],
+        },
+        {
+          text: 'Learn Onshape',
           items: [
-            { text: 'Overview', link: '/mechanical/' },
             { text: 'Onshape', link: '/mechanical/onshape' },
-            { text: 'CAD Guidelines', link: '/mechanical/cad-guidelines' },
+            { text: 'Onshape Tips & Tricks', link: '/mechanical/onshape-tips-and-tricks' },
+            { text: 'Feature Scripts', link: '/mechanical/feature-scripts' },
+          ],
+        },
+        {
+          text: 'How We CAD',
+          items: [
+            { text: 'CAD Standards', link: '/mechanical/cad-standards' },
             { text: 'CAD Checklist', link: '/mechanical/cad-checklist' },
+          ],
+        },
+        {
+          text: 'Designing the Robot',
+          items: [
             { text: 'Design Rules', link: '/mechanical/design-rules' },
+            { text: 'Parts & Materials', link: '/mechanical/parts-and-materials' },
+            { text: '3D Printing', link: '/mechanical/3d-printing' },
             { text: 'Understanding Torque', link: '/mechanical/understanding-torque' },
-            { text: '3D Printing Design Specs', link: '/mechanical/3d-printing' },
           ],
         },
       ],
@@ -131,6 +147,7 @@ export default defineConfig({
           items: [
             { text: 'Overview', link: '/manufacturing/' },
             { text: 'Fusion 360 CAM', link: '/manufacturing/fusion-360-cam' },
+            { text: '3D Printing & Slicing', link: '/manufacturing/3d-printing' },
           ],
         },
       ],

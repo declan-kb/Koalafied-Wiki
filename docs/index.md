@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Koalafied Wiki
-  tagline: Everything Team Koalafied knows about building robots, written down in one place.
+  tagline: Our team's live evergreen technical documentation and guidelines.
   image:
     src: /logo.svg
     alt: Team Koalafied logo
@@ -23,9 +23,13 @@ features:
     details: Setting up your computer, our C++ coding standard, and how the robot code is organised.
     link: /software/
   - title: Mechanical
-    details: Onshape, CAD guidelines and checklists, design rules, the physics of torque and 3D printing design specs.
+    details: Learning Onshape, our CAD standards and checklist, design rules, and the parts and materials we build with.
     link: /mechanical/
   - title: Manufacturing
     details: Practical notes for making parts, starting with Fusion 360 CAM.
     link: /manufacturing/
 ---
+
+::: warning Work in progress
+This wiki is still being written. Some pages may be incomplete or missing information. If you spot something wrong, put it in Slack or [fix it](/contributing/how-to-edit).
+:::
