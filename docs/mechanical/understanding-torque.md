@@ -1,9 +1,5 @@
 # Understanding Torque
 
-::: info
-This page is a draft. Some sections are still just headings; feel free to fill them in.
-:::
-
 ## Definition
 
 Torque is a very simple idea. It is just rotational force.
@@ -14,18 +10,20 @@ $$T = Fr$$
 
 Where
 
-- $F$ is the force in Newtons [N]
-- $r$ is the radius in metres [m]
-- $T$ is the torque in Newton metres [Nm]
+$F$ is the force in Newtons [N}
+
+$r$ is the radius in metres [m]
+
+$T$ is the torque in Newton meters [Nm]
 
 Force is tangential to the motion, that is it is at right angles to the radius.
 
 ## Newton’s Laws
 
-Rotational motion is just like force in that it obeys Newton’s laws of motion:
+Rotation motion is just like force is that it obeys Newton’s laws of motion
 
-1. A body remains at rest, or rotating at a constant speed, unless it is acted upon by a torque.
-2. $T = I\alpha$ (rather than $F = ma$)
+1. A body remains at rest, or in rotating at a constant speed, unless it is acted upon by a torque.
+2. $T = I\alpha$ (rather that $F = ma$)
 3. If two bodies exert torques on each other, these torques have the same magnitude but opposite directions.
 
 ## Seesaw
@@ -40,13 +38,13 @@ Where gears mesh they push on each other with equal force.
 
 $$F_1 = F_2$$
 
-$$\frac{T_1}{r_1} = \frac{T_2}{r_2}$$
+$$T_1/r_1 = T_2/r_2$$
 
-$$\frac{T_1}{T_2} = \frac{r_1}{r_2}$$
+$$T_1/T_2 = r_2/r_1$$
 
-The radius of the gear is proportional to the number of teeth $g$ on the gear so
+The radius of the gear is proportional to the number of teeth on the gear so
 
-$$\frac{T_1}{T_2} = \frac{g_1}{g_2}$$
+$$T_1/T_2 = g_2/g_1$$
 
 ## Climbing Pulley
 
@@ -60,13 +58,13 @@ The force on a pivot arm is gravity pushing downward. When the arm is horizontal
 
 When there is a force that is not acting tangentially we resolve it into a tangential component and a radial component.
 
-Alternatively we can use the force as it is and calculate the radius as the distance to the line of the force.
+Alternatively we that use the force as it is and calculate the radius as the distance to the line of the force.
 
 ## Ladder Against a Wall
 
-Calculating the forces on a ladder against a wall is a classic problem.
+Calculating the forces on a ladder against a wall is a classic problem that requires
 
-Note that because the ladder is not actually rotating there is no ‘centre point’ to calculate the torque around. We can actually use any point as the centre and the best method is to choose a point that makes the calculation easier.
+Not that because the ladder is not actually rotating there is no ‘centre point’ to calculate the torque around. We can actual use any point as the centre and the best method is to choose a point that makes the calculation easier.
 
 ## 2026 Climbing Robot
 

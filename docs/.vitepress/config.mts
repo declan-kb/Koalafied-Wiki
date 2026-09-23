@@ -105,7 +105,6 @@ export default defineConfig({
             { text: 'Setup Guide', link: '/software/setup-guide' },
             { text: 'Software Organisation', link: '/software/organisation' },
             { text: 'C++ Coding Standard', link: '/software/coding-standard' },
-            { text: 'Coding Standard Example', link: '/software/coding-standard-example' },
             { text: 'C++ Cheat Sheet', link: '/software/cpp-cheat-sheet' },
             { text: 'Mechanism Structure', link: '/software/mechanism-structure' },
             { text: 'Simulation', link: '/software/simulation' },

@@ -2,7 +2,7 @@
 
 **Overall requirement:** Understanding of basic components and how they are connected. Should be completed by all students.
 
-## Identify the common components of the electrical system
+**Identify the common components of the electrical system:**
 
 To pass this requirement, you must be able to point out ALL of the listed components on a chosen robot (lemon launcher for now). Almost all of the components are found in the bellypan, those located elsewhere will be indicated below. [WPILib Docs](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html) has some extra/different information about alternative components.
 
@@ -54,7 +54,7 @@ OrangePi + transformer: unfortunately, I don't have a photo. The OrangePi is in 
 </figure>
 </div>
 
-## Explain the function of core components of the electrical system
+**Explain the function of core components of the electrical system**
 
 - roboRIO: The brain of the robot. It executes the robot software, receiving input from the Driver Station and cameras via the radio, and sends controls/ receives feedback from motors/sensors on the CAN bus.
 
@@ -66,7 +66,7 @@ OrangePi + transformer: unfortunately, I don't have a photo. The OrangePi is in 
 
 - Motor controllers: Mini-computer that manages an individual motor. It controls how much power to give the motor, based on what the roboRIO has told the motor to do.
 
-## Explain the need for different wire gauges for different purposes
+**Explain the need for different wire gauges for different purposes**
 
 Wires have a (small) non-zero resistance. Power lost to resistance in wires causes heating of the wire, which is bad. Larger diameter wires have lower resistance, so they can carry higher amounts of current without excessive heating.
 
@@ -82,7 +82,7 @@ $$R = \frac{\rho L}{A}$$
 
 $L,A$ are the length and area of the wire, $\rho$ is the resistivity of the metal. To double the current capacity of a wire, we need to quadruple the area, as the current is squared in the power loss equation.
 
-## Demonstrate understanding of the process of battery management
+**Demonstrate understanding of the process of battery management**
 
 Battery management can be simplified down to two main things: keeping them on charge, and knowing when a battery is full. All batteries not in a robot should be on charge if possible. If the robot is delayed after a match, the battery should be taken back to the pits ASAP.
 
@@ -96,7 +96,7 @@ The lights on the charger have a lot of different modes, but there are three tha
 
 See the [user guide](https://no.co/media/wysiwyg/downloads/User_Guides/GEN/GEN_Series_NA_User_Guide_10.30.2024A.pdf) for more.
 
-## Demonstrate battery and breaker use
+**Demonstrate battery and breaker use**
 
 The process of power cycling the robot can be broken into four steps:
 

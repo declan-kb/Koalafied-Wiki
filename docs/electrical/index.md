@@ -1,8 +1,8 @@
 # Electrical
 
-These pages cover everything in the [Electrical Skills Tree](https://docs.google.com/document/u/0/d/1p6fDN4rEsv-cOa9U8fXfMKU4TQqnB-z98Aq0cJhD9BU/edit). They include the information you need to pass the knowledge-based parts of each skill, plus guides for the practical parts. Skills are listed in the same order as the skills tree. This is a revision guide for new electrical students, not a full reference manual (that's the Electrical Systems Manual, still to be published).
+This document serves as a companion to the ‘[Electrical Skills Tree](https://docs.google.com/document/u/0/d/1p6fDN4rEsv-cOa9U8fXfMKU4TQqnB-z98Aq0cJhD9BU/edit)’, and contains all of the information required to pass any knowledge-based components of each skill, and guides for practical components. The information is organised by skill, in the same order as the skills tree. This document is separate to the Electrical Systems Manual (to be published), serving as a revision sheet for new electrical students, rather than a comprehensive reference.
 
-The detail here usually goes beyond what a skill needs to pass, so you don't need to memorise all of it. You do need to show that you understand what you're talking about. Some skills link to WPILib Docs pages for further reading, but that reading is optional.
+In general, the level of detail provided will be greater than is required for a pass on a specific skill requirement, so do not worry about memorising everything, but it should be clear you understand what you are talking about. Links to WPILib Docs pages will be included in some skills for further reading, although it is not required.
 
 - [Basic Electrical Knowledge](./basic-electrical-knowledge)
 - [Basic Electrical Knowledge II](./basic-electrical-knowledge-ii)

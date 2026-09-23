@@ -2,10 +2,10 @@
 
 **Overall Requirement:** Demonstrate understanding of how to safely solder wires together.
 
-## Understand the hazards associated with use of a soldering iron (and heat gun)
+**Understand the hazards associated with use of a soldering iron (and heat gun)**
 
 ::: danger
-## ALWAYS assume the iron is hot!!!
+**ALWAYS assume the iron is hot!!!**
 :::
 
 Soldering irons get very hot, and therefore pose a burn hazard if handled incorrectly. In the included image, everything past the blue handle in the above image is too hot to touch when the iron is on.
@@ -26,7 +26,7 @@ Similar to the soldering iron, the heat gun presents hazards both in the ‘hot 
 
 Separate to the safety concerns of the soldering iron, the heat can also damage plastic components, so be careful when soldering wires near 3D prints.
 
-## Explain, either verbally or through dry-run demonstration, proper soldering technique
+**Explain, either verbally or through dry-run demonstration, proper soldering technique**
 
 The process of soldering wires together can be summarised in the following steps:
 
@@ -57,10 +57,10 @@ The process of soldering wires together can be summarised in the following steps
 <figcaption>Wire-wire soldering. Source: <a href="https://frcelectrical.org/Making-Connections/">FRCElectrical</a></figcaption>
 </figure>
 
-## Demonstrate ability to strip, twist, solder, and heat-shrink a CAN bus wire
+**Demonstrate ability to strip, twist, solder, and heat-shrink a CAN bus wire**
 
 Execute the process described above, using CAN bus wire or similar small wire, following all safety rules, without prompting.
 
-## Demonstrate ability to prepare multi-core wire for soldering
+**Demonstrate ability to prepare multi-core wire for soldering**
 
 Multi-core 18AWG wire (grey sheath), has a few more steps to preparing the ends for connectors/soldering. The outer sheath, and the filler material must be removed a few cm back from the end of the wire, without damaging the insulation of either core. Then, the wire must be stripped. As the soldering process is much the same as for CAN wire, a demonstration is not required

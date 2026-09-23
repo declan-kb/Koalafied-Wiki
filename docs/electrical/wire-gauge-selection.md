@@ -2,7 +2,7 @@
 
 **Overall requirement:** Show understanding of the purpose of different wire gauges and their place on the robot.
 
-## Explain why different wire gauges are necessary
+**Explain why different wire gauges are necessary**
 
 While often treated as having no resistance when doing simple circuit models, wires do actually have some resistance, related to their length and cross-sectional area, given by the formula
 
@@ -14,11 +14,11 @@ $$P\  = \ VI\  = I^{2}R$$
 
 Power is lost in a wire in the form of heat, which can be very dangerous. As some wires in the robot carry a lot of current, we need to reduce heat losses by having a wire with low resistance. As the length and resistivity are fixed (for copper wire) we minimise resistance by using thicker wires (larger area). To double the current capacity of a wire, we need to quadruple the area, as the current is squared in the power loss equation.
 
-## List the common wire gauges used on the robot and their purpose
+**List the common wire gauges used on the robot and their purpose**
 
 The game manual lays out the minimum size for wires rated to a given current. To pass inspection, the wire size for a given circuit must meet or exceed the gauge corresponding to the capacity of its circuit breaker. For almost everything, we use a reduced set of the wire gauges specified in the game manual for simplicity, given in the table.
 
-| Current rating (A) | Minimum wire size AWG (mm²) |
+| Current rating (A) | Minimum wire size AWG (mm2) |
 |:-------------------|-----------------------------|
 | 120 A              | 6 (16)                      |
 | 40 A               | 12 (4)                      |

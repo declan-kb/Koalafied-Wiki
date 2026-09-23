@@ -2,11 +2,11 @@
 
 **Overall requirement:** Show understanding of the unique issues posed by soldering large wires, and perform a demonstration.
 
-## Demonstrate understanding of the additional challenges soldering large diameter wires
+**Demonstrate understanding of the additional challenges soldering large diameter wires**
 
 Larger wires require more energy to heat, so soldering them requires a different technique. They require more solder, which means more time for heat to spread through the wire and heat the insulation to the point of being too hot to hold, and potentially prematurely shrinking heat-shrink. The wire itself is either stiffer (standard) or ‘slippery’ (high-flex), meaning they are harder to twist together before soldering.
 
-## Explain, either verbally or through dry-run demonstration, proper soldering technique for large diameter wires
+**Explain, either verbally or through dry-run demonstration, proper soldering technique for large diameter wires**
 
 1.  Turn on the iron. A higher temperature than for small wires is good, around 400°C.
 
@@ -34,6 +34,6 @@ Larger wires require more energy to heat, so soldering them requires a different
 
 10. Wait for the joint to cool, then slide the heat shrink over the joint, and shrink it with the barrel of the iron, or the heat gun.
 
-## Demonstrate ability to strip, twist, solder, and heat-shrink a 12AWG power wire
+**Demonstrate ability to strip, twist, solder, and heat-shrink a 12AWG power wire**
 
 Execute the above process on a 12AWG or larger wire, following all safety rules and without prompting.
