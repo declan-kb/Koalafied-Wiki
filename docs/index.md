@@ -1,3 +1,31 @@
-This document serves as a companion to the ‘[<u>Electrical Skills Tree</u>](https://docs.google.com/document/u/0/d/1p6fDN4rEsv-cOa9U8fXfMKU4TQqnB-z98Aq0cJhD9BU/edit)’, and contains all of the information required to pass any knowledge-based components of each skill, and guides for practical components. The information is organised by skill, in the same order as the skills tree. This document is separate to the Electrical Systems Manual (to be published), serving as a revision sheet for new electrical students, rather than a comprehensive reference.
+---
+layout: home
 
-In general, the level of detail provided will be greater than is required for a pass on a specific skill requirement, so do not worry about memorising everything, but it should be clear you understand what you are talking about. Links to WPILib Docs pages will be included in some skills for further reading, although it is not required.
+hero:
+  name: Koalafied Wiki
+  tagline: Everything Team Koalafied knows about building robots, written down in one place.
+  image:
+    src: /logo.svg
+    alt: Team Koalafied logo
+  actions:
+    - theme: brand
+      text: Start with Electrical
+      link: /electrical/
+    - theme: alt
+      text: How to edit this wiki
+      link: /contributing/how-to-edit
+
+features:
+  - title: Electrical
+    details: The electrical skills tree, covering wiring, soldering, connectors and circuit basics.
+    link: /electrical/
+  - title: Software
+    details: Setting up your computer, our C++ coding standard, and how the robot code is organised.
+    link: /software/
+  - title: Mechanical
+    details: Onshape, CAD guidelines and checklists, design rules and the physics of torque.
+    link: /mechanical/
+  - title: Manufacturing
+    details: Practical notes for making parts, starting with 3D printing.
+    link: /manufacturing/
+---
