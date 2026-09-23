@@ -9,3 +9,4 @@ New to CAD? Start with [Onshape](./onshape).
 - [CAD Checklist](./cad-checklist): check this before a design is finished
 - [Design Rules](./design-rules): rules of thumb for robot design
 - [Understanding Torque](./understanding-torque): the physics behind gears, arms and climbers
+- [3D Printing Design Specs](./3d-printing): hole sizes for screws, inserts, shafts and bearings

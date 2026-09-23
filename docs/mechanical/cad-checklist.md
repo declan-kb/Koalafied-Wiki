@@ -20,7 +20,7 @@ If something doesn't apply, skip it.
 ## Power Transmission
 
 ### Belts, Chain, Gears
-- [ ] Centre to centre distance with a calculator (e.g. [Recalc]((https://www.reca.lc))
+- [ ] Centre to centre distance with a calculator (e.g. [Recalc](https://www.reca.lc))
 - [ ] Belt or gear is one that we have in stock, or available to buy 
   - Belts to purchase are available via [PT Parts](https://ptparts.com.au) or [Core Electronics](https://core-electronics.com.au)
   - Gears to purchase are available via [WCP](https://wcproducts.com) or [Rev Global](https://revrobotics.global)

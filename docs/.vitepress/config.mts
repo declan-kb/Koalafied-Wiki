@@ -121,6 +121,7 @@ export default defineConfig({
             { text: 'CAD Checklist', link: '/mechanical/cad-checklist' },
             { text: 'Design Rules', link: '/mechanical/design-rules' },
             { text: 'Understanding Torque', link: '/mechanical/understanding-torque' },
+            { text: '3D Printing Design Specs', link: '/mechanical/3d-printing' },
           ],
         },
       ],
@@ -129,7 +130,7 @@ export default defineConfig({
           text: 'Manufacturing',
           items: [
             { text: 'Overview', link: '/manufacturing/' },
-            { text: '3D Printing', link: '/manufacturing/3d-printing' },
+            { text: 'Fusion 360 CAM', link: '/manufacturing/fusion-360-cam' },
           ],
         },
       ],

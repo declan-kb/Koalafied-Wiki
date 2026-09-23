@@ -1,4 +1,4 @@
-# 3D Printing
+# 3D Printing Design Specs
 
 This document might eventually be nicely organised to describe our 3D printing capability, but for the moment it is a dumping ground for things I (Nick) want to remember.
 

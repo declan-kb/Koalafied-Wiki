@@ -23,9 +23,9 @@ features:
     details: Setting up your computer, our C++ coding standard, and how the robot code is organised.
     link: /software/
   - title: Mechanical
-    details: Onshape, CAD guidelines and checklists, design rules and the physics of torque.
+    details: Onshape, CAD guidelines and checklists, design rules, the physics of torque and 3D printing design specs.
     link: /mechanical/
   - title: Manufacturing
-    details: Practical notes for making parts, starting with 3D printing.
+    details: Practical notes for making parts, starting with Fusion 360 CAM.
     link: /manufacturing/
 ---
