@@ -59,7 +59,7 @@ The [Game Manual](https://www.firstinspires.org/resource-library/frc/competition
 - [Project B Mechanism Encyclopaedia](https://www.projectb.net.au/resources/robot-mechanisms/): explains common robot mechanisms and when to use them
 - **Vendor example designs:** WCP, REV and AndyMark publish tested designs with CAD, such as elevator kits and the Everybot
 - **Technical binders:** many top teams publish one for each robot, explaining every mechanism and why they chose it. Find them on Chief Delphi, usually in [Robot Showcase](https://www.chiefdelphi.com/c/first/robot-showcase/37).
-- **Robot in 3 Days (Ri3D):** after kickoff, several teams each build a robot for the new game in 3 days and post videos, showing quickly what ideas work
+- **Robot in 3 Days (Ri3D):** after kickoff, several teams each build a robot for the new game in 3 days and post videos, showing quickly what ideas work. Search for Ri3D on youtube.
 - [Behind the Bumpers](https://www.youtube.com/playlist?list=PLkZ6_Ld1x9Y_GDGwzzxD_vi_5tnlmAWJo): short videos from the [FUN (FIRST Updates Now)](https://www.youtube.com/@FUNRoboticsNetwork) YouTube channel where teams walk through their robots at competitions
 - [The Blue Alliance](https://www.thebluealliance.com): match videos and robot photos for any team or event
 - [Team 971](https://www.frc971.org): known for their advanced custom mechanisms and design talks

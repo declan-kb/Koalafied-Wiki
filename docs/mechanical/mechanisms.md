@@ -17,7 +17,10 @@ The base of the robot that drives it around the field.
 
 Each wheel is on its own module that can both drive and steer, so the robot can move in any direction while facing any way. It takes two motors per module. Most competitive teams use swerve.
 
-<!-- ![Swerve drive](./images/mechanism-swerve.jpg) -->
+<figure>
+<img src="./images/mk4c.jpg" alt="SDS MK4c swerve module" width="250">
+<figcaption>An SDS MK4c swerve module, with one motor to drive and one to steer (image: SDS)</figcaption>
+</figure>
 
 ### Tank Drive
 

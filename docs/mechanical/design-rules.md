@@ -38,6 +38,12 @@ Every rule on this page comes back to three goals. When they conflict, they win 
 - **Tube Wall Thickness** - Generally use thick wall tube for the drivebase and thin wall for most of the superstructure.
 - **Plate Thickness** - Prefer 2.5mm aluminium plate where possible. It is lighter, quicker to machine and easier to work with. Use 5mm plate when you plan to pocket it.
 - **Polycarbonate for Impacts** - It bends rather than cracks, so use it for guards, covers and other parts that get hit.
+- **Extrusion Holes on a 0.5in Grid** - Put holes for mounting to extrusion on a 0.5in × 0.5in grid. We have a jig for drilling these.
+
+<figure>
+<img src="./images/tube-drilling-jig.png" alt="Tube drilling jig" width="300">
+<figcaption>Our tube drilling jig, for holes on the 0.5in grid</figcaption>
+</figure>
 
 ## 3D Printing
 
@@ -101,12 +107,11 @@ Both our 2026 intakes were full width (large acquisition zone) rolly-grabbers.
 
 | What | Rule |
 |------|------|
-| 10-32 clearance holes | Spec as 5mm in CAD |
-| 1.125in bearing holes | Spec as 1.13in in CAD |
-| Internal corner radii (CNC) | Greater than 2mm, as we use a 4mm end mill by default (the 2mm end mill is only for custom gears) |
-| Bends | Small (ideally under 4in) 90° bends in 2.5mm aluminium and 3mm polycarbonate only |
-| Holes in 2x1 extrusion | Put them on a 0.5in grid, as we have a jig for drilling these |
+| 10-32 clearance holes | 5mm (or #11 drill)|
+| 10-32 tap holes | 4.1mm (#20 drill) |
 | 5mm rivet holes | 5mm |
+| 1.125in bearing holes | 1.130 in CAD, or 1.125 then step-drill |
+| Internal corner radii (CNC) | Greater than 2mm (4mm end-mill) |
 | CNC sheet size | 550 × 1150mm maximum |
 
 ## Resources

@@ -14,6 +14,21 @@ The table shows the swerve modules we have, and the motors our sets are set up f
 | MK4c | L2+ (5.9:1) | Kraken X60 only |
 | MK5n | Three ratios included, changed by swapping only the motor pinion | Kraken X60 drive, Kraken X44 steering |
 
+<div class="figure-row photos">
+<figure>
+<img src="./images/mk4i.jpg" alt="SDS MK4i" style="height: 180px">
+<figcaption>MK4i (image: SDS)</figcaption>
+</figure>
+<figure>
+<img src="./images/mk4c.jpg" alt="SDS MK4c" style="height: 180px">
+<figcaption>MK4c (image: SDS)</figcaption>
+</figure>
+<figure>
+<img src="./images/mk5n.jpg" alt="SDS MK5n" style="height: 180px">
+<figcaption>MK5n (image: SDS)</figcaption>
+</figure>
+</div>
+
 Buy modules and spares from [SDS](https://www.swervedrivespecialties.com) (Swerve Drive Specialties) or AndyMark. We get spares such as tread, replacement wheels, belts and different gear ratios from SDS.
 
 ## Motors
@@ -24,6 +39,17 @@ Buy modules and spares from [SDS](https://www.swervedrivespecialties.com) (Swerv
 | Kraken X44 | 7758 RPM | 4.11 Nm | ~395 W | WCP |
 | Falcon 500 | 6380 RPM | 4.69 Nm | ~400 W | No longer available, existing stock only |
 | JE (Johnson Electric PLG) | 310 RPM at output | 3.8 ft-lb (~5 Nm) at output | n/a (stalls at 26A) | AndyMark |
+
+<div class="figure-row photos">
+<figure>
+<img src="./images/kraken-x60-x44.jpg" alt="Kraken X60 and X44" style="height: 180px">
+<figcaption>Kraken X60 (top) and X44 (image: WCP)</figcaption>
+</figure>
+<figure>
+<img src="./images/falcon-500.jpg" alt="Falcon 500" style="height: 180px">
+<figcaption>Falcon 500 (image: VEX Robotics)</figcaption>
+</figure>
+</div>
 
 - **Kraken X60** - The most torque. Use it for drivetrains and heavily loaded mechanisms like arms, elevators and climbers.
 - **Kraken X44** - Smaller, lighter and faster, with less torque. Use it for rollers, intakes and lighter mechanisms, or where space is tight.
@@ -60,6 +86,21 @@ We have a servo-actuated ratchet available for the Sport gearbox only.
 - **Custom gears** - We can cut custom gears of 12DP or coarser (bigger teeth) on our CNC with a 2mm end mill.
 - **Sprockets and chain** - #25 and #35.
 
+<div class="figure-row photos">
+<figure>
+<img src="./images/steel-spur-gear.jpg" alt="60T 20DP steel spur gear" style="height: 180px">
+<figcaption>60T 20DP steel spur gear (image: WCP)</figcaption>
+</figure>
+<figure>
+<img src="./images/pinion.jpg" alt="13T steel pinion" style="height: 180px">
+<figcaption>13T pinion, which mounts directly on a motor shaft (image: WCP)</figcaption>
+</figure>
+<figure>
+<img src="./images/sprocket.jpg" alt="24T #25 sprocket" style="height: 180px">
+<figcaption>24T #25 sprocket (image: WCP)</figcaption>
+</figure>
+</div>
+
 See [Power Transmission](./design-rules#power-transmission) in Design Rules for when to use steel gears and which chain size.
 
 Buy gears and sprockets from REV or WCP, and chain from WCP. Check the [stock list](https://docs.google.com/spreadsheets/d/1-WUpauPn0w8gaDgV8chQGcHm4MKQWR08GLBQOgj7PT4/edit?usp=drive_web&ouid=101850487222114186850) first.
@@ -70,11 +111,21 @@ Buy gears and sprockets from REV or WCP, and chain from WCP. Check the [stock li
 - **Pulleys** - We 3D print pulleys for most applications.
 - **Prototype belts** - We 3D print belts in TPU 98A for prototyping. See [3D Printing](./3d-printing).
 
+<figure>
+<img src="./images/htd-belt.jpg" alt="5mm HTD timing belt" width="300">
+<figcaption>5mm HTD timing belt (image: Fenner)</figcaption>
+</figure>
+
 ## Shafts
 
 3/8in and 1/2in hex. Prefer 1/2in unless there is a specific design reason, because of hardware compatibility.
 
 Prefer rounded hex for ease of assembly, but some applications may need sharp hex.
+
+<figure>
+<img src="./images/ttb-rounded-hex.jpg" alt="End of a rounded hex shaft" width="300">
+<figcaption>Rounded hex shaft (image: The Thrifty Bot)</figcaption>
+</figure>
 
 Buy from REV, WCP, Thrifty or Grapple.
 
@@ -84,13 +135,29 @@ Screws and spacers are preferred for retaining shafts. We have shaft collars for
 
 ### Spacers
 
-We 3D print spacers.
+We 3D print spacers, and also stock some standard spacer sizes.
+
+<figure>
+<img src="./images/ttb-spacers.jpg" alt="Hex bore spacers in four lengths" width="400">
+<figcaption>Hex bore spacers (image: The Thrifty Bot)</figcaption>
+</figure>
 
 ## Bearings
 
 - **Flanged, hex bore** - 1/2in and 3/8in hex. The 1/2in hex bearings are 1.125in OD (see [Design Rules](./design-rules#design-numbers) for the hole size).
 - **Flanged, round bore** - Mostly used with rounded hex shafts.
 - **Small non-flanged** - For tight spaces. See the Lintake for an example.
+
+<div class="figure-row photos">
+<figure>
+<img src="./images/flanged-hex-bearing.jpg" alt="Flanged hex bore bearing" style="height: 160px">
+<figcaption>Flanged, hex bore</figcaption>
+</figure>
+<figure>
+<img src="./images/small-bearing.jpg" alt="Small non-flanged bearing" style="height: 160px">
+<figcaption>Small non-flanged</figcaption>
+</figure>
+</div>
 
 ## Springs
 
@@ -108,6 +175,21 @@ Buy fasteners from [Bolt and Nut](https://boltandnut.com.au) unless another vend
 
 10-32 and 8-32 bolts come in socket head and button head. Use socket heads unless a button head is specifically required. Never use 8-32 button heads, as the risk of stripping them is too high.
 
+<div class="figure-row photos">
+<figure>
+<img src="./images/socket-head.png" alt="Socket head bolt" style="height: 160px">
+<figcaption>Socket head (image: Bolt and Nut)</figcaption>
+</figure>
+<figure>
+<img src="./images/button-head.jpg" alt="Button head bolt" style="height: 160px">
+<figcaption>Button head (image: Bolt and Nut)</figcaption>
+</figure>
+<figure>
+<img src="./images/shoulder-bolt.jpg" alt="Shoulder bolts" style="height: 160px">
+<figcaption>Shoulder bolt (image: Bolt and Nut)</figcaption>
+</figure>
+</div>
+
 ### Other Hardware
 
 | Hardware | What we have | Buy from |
@@ -123,6 +205,11 @@ Buy fasteners from [Bolt and Nut](https://boltandnut.com.au) unless another vend
 
 We use blue Loctite threadlocker in glue-stick form, usually from Supercheap Auto. Never use threadlocker on polycarbonate, as it makes the plastic crack.
 
+<figure>
+<img src="./images/loctite.jpg" alt="Blue Loctite threadlocker stick" style="height: 200px">
+<figcaption>Blue Loctite threadlocker stick</figcaption>
+</figure>
+
 ## Materials
 
 Custom sizes of any material are available on request.
@@ -136,10 +223,26 @@ Custom sizes of any material are available on request.
 
 \* VEX sizes. We still have some in stock, but they can no longer be ordered.
 
+<figure>
+<img src="./images/2x1-extrusion.jpg" alt="2x1 aluminium extrusion" width="250">
+<figcaption>2x1 aluminium extrusion (image: WCP)</figcaption>
+</figure>
+
 ### Nut Strips & Tube Plugs
 
 - **Nut strips** - Aluminium bars with 10-32 threaded holes at 0.5in spacing, used instead of individual nuts when bolting plates and structure together. Buy from REV or WCP.
 - **Tube plugs** - Aluminium plugs that fit into the end of an extrusion, tapped 10-32 on five faces, so you can bolt a plate to the end of a tube. We buy the standard plugs, sized for 1/8in wall extrusion, from WCP, and 3D print sleeves to fit them into thinner-wall tube.
+
+<div class="figure-row photos">
+<figure>
+<img src="./images/nut-strips.png" alt="Nut strips" style="height: 180px">
+<figcaption>Nut strips (image: WCP)</figcaption>
+</figure>
+<figure>
+<img src="./images/tube-plug.jpg" alt="Tube plug" style="height: 180px">
+<figcaption>Tube plug (image: WCP)</figcaption>
+</figure>
+</div>
 
 ### 3D Printing Filament
 

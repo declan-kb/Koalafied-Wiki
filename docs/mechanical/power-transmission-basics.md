@@ -40,6 +40,11 @@ For example, a 5:1 and 4:1 MAXPlanetary stage followed by an 18T to 36T belt (2:
 - **Belts and chain** turn both ends in the same direction.
 - **Idler gear** - a gear (of any size) placed between two others (of the same size) reverses the direction without changing the ratio.
 
+<figure>
+<img src="./images/gear-direction-idler.png" alt="Two meshing gears turning opposite ways, and three gears with an idler in the middle" width="600">
+<figcaption>Left: meshing gears turn in opposite directions. Right: with an idler in the middle, the outer gears turn the same way. (Image: WCP)</figcaption>
+</figure>
+
 Direction can be flipped in code, so it only matters mechanically when two things driven by one motor need to turn a particular way relative to each other, e.g. the top and bottom rollers of an intake.
 
 ## Gears, Belts and Chain
@@ -86,9 +91,24 @@ We use timing belts, which have teeth that mesh with the pulleys. They are light
 
 Roller chain is strong, handles shock loads better than gears, and can be cut to any length, but it is heavier than belt, stretches over time and needs tensioning.
 
+<figure>
+<img src="./images/chain-and-sprockets.png" alt="#25 chain running between two 24T sprockets" width="450">
+<figcaption>#25 chain on two 24T sprockets (image: WCP)</figcaption>
+</figure>
+
 - **Size** - #25 has a 1/4in pitch and #35 has a 3/8in pitch. #35 is stronger and heavier. See [Chain Size](./design-rules#power-transmission) for when to use each.
 - **Links** - chain is joined with a master link, and normally needs an even number of links. A half link allows an odd number, but it is weaker.
 - **Tensioning** - use turnbuckles or a tensioner. A slack chain adds backlash (play), which makes mechanisms like arms and elevators hard to position accurately.
+
+<figure>
+<img src="./images/rev-turnbuckle.jpg" alt="Turnbuckle for tensioning chain" width="350">
+<figcaption>Turnbuckle for tensioning chain (image: REV Robotics)</figcaption>
+</figure>
+
+<figure>
+<img src="./images/sprocket-diameters.png" alt="Sprocket with pitch, outside and chain clearance diameters labelled" width="550">
+<figcaption>Sprocket diameters. Leave room for the chain clearance diameter, not just the sprocket's outside diameter. (Image: WCP)</figcaption>
+</figure>
 
 ## Shafts and Bearings
 
@@ -98,6 +118,11 @@ Gears, pulleys and sprockets sit on shafts, and shafts spin in bearings.
 - **Rounded hex** - hex with rounded corners, so it can also spin inside round bore bearings.
 - **Support both ends** - a shaft supported at only one end (cantilevered) bends under load, which makes gears skip and bearings wear. Support shafts at both ends where possible.
 - **Retention** - everything on the shaft needs to be held in place along its length, or parts will slide and fall off. See [Shaft Retention](./parts-and-materials#shaft-retention).
+
+<figure>
+<img src="./images/ttb-rounded-hex.jpg" alt="End of a rounded hex shaft" width="300">
+<figcaption>Rounded hex shaft (image: The Thrifty Bot)</figcaption>
+</figure>
 
 ## Gearboxes
 

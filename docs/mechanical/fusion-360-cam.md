@@ -17,6 +17,24 @@ Notes about this guide:
   - These are generally due to inappropriate use of clamps / insufficient use of screws.
 :::
 
+## Quick Reference
+
+All the numbers used in this guide, for a 4mm end mill in aluminium.
+
+| Operation | Setting | Value |
+|-----------|---------|-------|
+| Setup | Spoilboard size (max stock) | 1150 × 550mm |
+| Setup | Stock top offset | 0mm |
+| Tool (4mm flat end mill) | Feed rate | 1000 mm/min |
+| Tool (4mm flat end mill) | Spindle speed | 24000 rpm |
+| All operations | Bottom height offset | -0.5mm |
+| Bore | Pitch | 0.8mm |
+| 2D Contour | Tab width / height | 4mm / 1.5mm |
+| 2D Contour | Maximum roughing stepdown | 1.6mm |
+| Adaptive Clearance | Radial / axial stock to leave | 0mm |
+| Adaptive Clearance | Ramping angle | 4° |
+| Adaptive Clearance | Ramp clearance height | 1mm |
+
 ## Setup
 
 1. Import .STEP file into Fusion 360
