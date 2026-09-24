@@ -23,11 +23,8 @@ features:
     details: Setting up your computer, our C++ coding standard, and how the robot code is organised.
     link: /software/
   - title: Mechanical
-    details: Learning Onshape, our CAD standards and checklist, design rules, and the parts and materials we build with.
+    details: Learning Onshape, our CAD standards and checklist, design rules, the parts and materials we build with, and how we make parts.
     link: /mechanical/
-  - title: Manufacturing
-    details: Practical notes for making parts, starting with Fusion 360 CAM.
-    link: /manufacturing/
 ---
 
 ::: warning Work in progress

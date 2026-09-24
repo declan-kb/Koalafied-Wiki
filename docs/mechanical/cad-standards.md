@@ -17,6 +17,12 @@ They are not final, and the points are open for discussion.
 - Use folders in Part Studios to group together the sketches and features that make a specific part. This isn't always possible, but do it where you can.
 - Order features so the design builds up logically, and roll back to insert new features in the right place rather than adding everything at the end.
 
+## Materials, Mass and Appearance
+- Assign a material to every part, e.g. Aluminium 6061 or Polycarbonate. Onshape uses it to calculate mass, so the robot's weight and centre of gravity are only right if every part has one.
+- You can use the mass override for 3D printed parts, as infill means the material mass will be wrong. One option is using the mass estimate from the slicer.
+- COTS parts from FRCdesignlib all come with a mass.
+- Set appearances to match the real part, e.g. grey for aluminium, clear for polycarbonate, and the filament colour for printed parts. 
+
 ## Assemblies
 - Group all static parts from the part-studio in an assembly with a single group mate before adding any COTS parts. 
 - Use sub-assemblies. This makes mating parts much easier and is essential when the sub-assembly is used repeatedly.

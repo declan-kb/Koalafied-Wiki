@@ -7,7 +7,7 @@ Prerequisites:
 - Your own laptop. Use it rather than the school computers, which don't have the slicers installed.
 - [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/) for the Prusa MK3S+ and MK4S
 - [Bambu Studio](https://bambulab.com/en/download/studio) for the Bambu P1S
-- A part designed for printing. See [3D Printing](../mechanical/3d-printing) for our printers, filaments and design rules.
+- A part designed for printing. See [3D Printing](./3d-printing) for our printers, filaments and design rules.
 
 ## 1. Export from Onshape
 

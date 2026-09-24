@@ -67,7 +67,6 @@ export default defineConfig({
       { text: 'Electrical', link: '/electrical/' },
       { text: 'Software', link: '/software/' },
       { text: 'Mechanical', link: '/mechanical/' },
-      { text: 'Manufacturing', link: '/manufacturing/' },
       { text: 'How to edit', link: '/contributing/how-to-edit' },
     ],
 
@@ -77,8 +76,20 @@ export default defineConfig({
       '/electrical/': [
         {
           text: 'Electrical',
+          items: [{ text: 'Overview', link: '/electrical/' }],
+        },
+        {
+          text: 'Reference',
           items: [
-            { text: 'Overview', link: '/electrical/' },
+            { text: 'Control System Diagram', link: '/electrical/control-system-diagram' },
+            { text: 'Understanding DC Motors', link: '/electrical/understanding-dc-motors' },
+            { text: 'Wire Gauge Guide', link: '/electrical/wire-gauge-guide' },
+          ],
+        },
+        {
+          text: 'Skills Tree',
+          items: [
+            { text: 'Skills Tree Overview', link: '/electrical/skills-tree' },
             { text: 'Basic Electrical Knowledge', link: '/electrical/basic-electrical-knowledge' },
             { text: 'Basic Electrical Knowledge II', link: '/electrical/basic-electrical-knowledge-ii' },
             { text: 'Basic Soldering', link: '/electrical/basic-soldering' },
@@ -117,11 +128,20 @@ export default defineConfig({
           items: [{ text: 'Overview', link: '/mechanical/' }],
         },
         {
-          text: 'Learn Onshape',
+          text: 'Onshape',
           items: [
-            { text: 'Onshape', link: '/mechanical/onshape' },
+            { text: 'Onshape Setup', link: '/mechanical/onshape' },
             { text: 'Onshape Tips & Tricks', link: '/mechanical/onshape-tips-and-tricks' },
             { text: 'Feature Scripts', link: '/mechanical/feature-scripts' },
+          ],
+        },
+        {
+          text: 'Fundamentals',
+          items: [
+            { text: 'Understanding Torque', link: '/mechanical/understanding-torque' },
+            { text: 'Power Transmission Basics', link: '/mechanical/power-transmission-basics' },
+            { text: 'FRC Robot Rules Basics', link: '/mechanical/frc-robot-rules' },
+            { text: 'Mechanisms', link: '/mechanical/mechanisms' },
           ],
         },
         {
@@ -137,17 +157,14 @@ export default defineConfig({
             { text: 'Design Rules', link: '/mechanical/design-rules' },
             { text: 'Parts & Materials', link: '/mechanical/parts-and-materials' },
             { text: '3D Printing', link: '/mechanical/3d-printing' },
-            { text: 'Understanding Torque', link: '/mechanical/understanding-torque' },
+            { text: 'External Resources', link: '/mechanical/external-resources' },
           ],
         },
-      ],
-      '/manufacturing/': [
         {
           text: 'Manufacturing',
           items: [
-            { text: 'Overview', link: '/manufacturing/' },
-            { text: 'Fusion 360 CAM', link: '/manufacturing/fusion-360-cam' },
-            { text: '3D Printing & Slicing', link: '/manufacturing/3d-printing' },
+            { text: 'Fusion 360 CAM', link: '/mechanical/fusion-360-cam' },
+            { text: '3D Printing & Slicing', link: '/mechanical/3d-printing-slicing' },
           ],
         },
       ],

@@ -1,4 +1,4 @@
-# Onshape
+# Onshape Setup
 
 Onshape is the CAD (computer-aided design) program we use to design our robot. It runs in your web browser, so there's nothing to install, and the whole team can work on the same design at the same time. That's why so many FRC teams use it.
 

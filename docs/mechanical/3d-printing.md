@@ -2,7 +2,7 @@
 
 How we design parts for 3D printing: our printers, settings, filament and the hardware that goes with printed parts.
 
-For how to export, slice and print a part, see the [3D Printing & Slicing Guide](../manufacturing/3d-printing).
+For how to export, slice and print a part, see the [3D Printing & Slicing Guide](./3d-printing-slicing).
 
 ## Printers
 

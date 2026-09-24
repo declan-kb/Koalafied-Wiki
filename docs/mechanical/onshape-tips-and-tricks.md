@@ -1,7 +1,7 @@
 # Onshape Tips & Tricks
 
 ::: info For experienced users
-These tips assume you already know the basics. If you're new to Onshape, start with [Onshape](./onshape).
+These tips assume you already know the basics. If you're new to Onshape, start with [Onshape Setup](./onshape).
 :::
 
 Many of these tips are from [this video](https://streamyard.com/watch/M2AYhQsbmBjj), which shows them in action.
