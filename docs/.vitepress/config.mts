@@ -138,7 +138,6 @@ export default defineConfig({
         {
           text: 'Fundamentals',
           items: [
-            { text: 'Understanding Torque', link: '/mechanical/understanding-torque' },
             { text: 'Power Transmission Basics', link: '/mechanical/power-transmission-basics' },
             { text: 'FRC Robot Rules Basics', link: '/mechanical/frc-robot-rules' },
             { text: 'Mechanisms', link: '/mechanical/mechanisms' },

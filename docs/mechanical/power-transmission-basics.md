@@ -2,7 +2,7 @@
 
 Power transmission is how we get power from a motor to the thing it moves: a wheel, a roller, an arm or an elevator. Nearly every mechanism on the robot uses gears, belts or chain, so this is worth understanding before you design one.
 
-For our rules on which to use, see [Power Transmission](./design-rules#power-transmission) in Design Rules. For the parts we buy, see [Parts & Materials](./parts-and-materials). For the physics behind torque, see [Understanding Torque](./understanding-torque).
+For our rules on which to use, see [Power Transmission](./design-rules#power-transmission) in Design Rules. For the parts we buy, see [Parts & Materials](./parts-and-materials).
 
 ## Why We Need It
 
@@ -13,7 +13,7 @@ FRC motors spin very fast with very little torque. A Kraken X60 spins at 6000 RP
 
 ## Gear Ratios
 
-A gear ratio compares the size of the driven (output) gear to the driving (input) gear. We count teeth, because the number of teeth is proportional to the size.
+A gear ratio compares the size (measured in teeth) of the output gear to the input gear. 
 
 $$\text{ratio} = \frac{\text{output teeth}}{\text{input teeth}}$$
 
@@ -23,12 +23,8 @@ $$\text{output speed} = \frac{\text{input speed}}{\text{ratio}} \qquad \text{out
 
 The same idea works for pulleys and sprockets: count the teeth on each.
 
-- **Reduction** (ratio above 1:1) - output is slower with more torque. Most mechanisms need this.
-- **Overdrive** (ratio below 1:1) - output is faster with less torque. Occasionally used for shooter flywheels.
-
-::: tip You can't get something for nothing
-Power stays the same (minus losses), so speed and torque trade off against each other. If you want a mechanism to be both fast and strong, you need a more powerful motor or more motors, not a different ratio.
-:::
+- **Reduction** (ratio above 1:1) - output is slower than the input, with more torque. Most mechanisms need this.
+- **Step-Up** (ratio below 1:1) - output is faster than the input, with less torque. Only rarely used for some mechanisms like shooter flywheels.
 
 ### Stages
 
@@ -38,23 +34,11 @@ $$\text{total ratio} = \text{stage 1} \times \text{stage 2} \times \dots$$
 
 For example, a 5:1 and 4:1 MAXPlanetary stage followed by an 18T to 36T belt (2:1) gives 5 × 4 × 2 = 40:1.
 
-### Worked Example
-
-An arm driven by a Kraken X60 (6000 RPM free speed, 7.09 Nm stall torque at 366A) with an 80A stator current limit, through the 40:1 reduction above:
-
-| | Calculation | Result |
-|--|-------------|--------|
-| Free speed | 6000 ÷ 40 | 150 RPM |
-| [Design speed (80%)](./design-rules#power-transmission) | 150 × 0.8 | ~120 RPM |
-| Max torque (80A limit) | 7.09 × (80 ÷ 366) × 40 | ~62 Nm |
-
-120 RPM is 2 revolutions per second, which is far too fast for an arm that only moves 90°. A bigger reduction would give more torque and finer control. Try the numbers in ReCalc's arm calculator.
-
 ## Direction
 
 - **Meshing gears** turn in opposite directions.
 - **Belts and chain** turn both ends in the same direction.
-- **Idler gear** - a gear placed between two others reverses the direction without changing the ratio.
+- **Idler gear** - a gear (of any size) placed between two others (of the same size) reverses the direction without changing the ratio.
 
 Direction can be flipped in code, so it only matters mechanically when two things driven by one motor need to turn a particular way relative to each other, e.g. the top and bottom rollers of an intake.
 
@@ -71,10 +55,11 @@ Direction can be flipped in code, so it only matters mechanically when two thing
 
 ### Gears
 
-Gears mesh directly, so they are compact, precise and never slip. The shafts must be exactly the right distance apart.
+Gears mesh directly, so they are compact and never slip. The shafts must be exactly the right distance apart.
 
-- **Material** - aluminium gears are lighter, and steel gears are stronger. Use [steel for high loads](./design-rules#power-transmission).
+- **Material** - aluminium gears are lighter, and steel gears are stronger.
 - **Diametral Pitch (DP)** - the tooth size. Gears only mesh with gears of the same DP. Our standard is 20DP. A higher DP means smaller teeth.
+- **Pressure angle** - the angle the teeth push on each other at, set by the tooth shape. Gears must have the same pressure angle as well as the same DP to mesh properly. Most FRC COTS gears are 14.5°. Check the pressure angle when mixing gears from different vendors, and when generating custom gears in CAD.
 - **Pitch diameter** - the effective size of the gear, where the teeth meet. For a gear with $N$ teeth:
 
 $$\text{pitch diameter (in)} = \frac{N}{DP}$$
@@ -85,7 +70,7 @@ $$\text{C-C (in)} = \frac{N_1 + N_2}{2 \times DP}$$
 
 For 20DP, a 12T and 60T gear are (12 + 60) ÷ 40 = 1.8in apart.
 
-- **Backlash** - the small gap between meshing teeth, which causes play in a mechanism. Some is needed so the gears don't bind. Spacing gears slightly further apart than the exact C-C (e.g. +0.003in) helps them run smoothly.
+- **Backlash** - the small gap between meshing teeth, which causes play in a mechanism. Some is needed so the gears don't bind. Spacing gears slightly further apart than the exact C-C (e.g. +0.003in) allows for manufacturing tolerances, so the gears don't bind or have tight spots.
 
 ### Belts
 
@@ -120,6 +105,11 @@ A gearbox packages one or more gear stages together.
 
 - **Planetary gearboxes** - COTS gearboxes (e.g. MAXPlanetary) where small gears orbit around a central gear inside a ring. They are simple to use, compact and in line with the motor, and the ratio is easy to change by swapping stages. See [Gearboxes](./parts-and-materials#gearboxes) for the ones we have.
 - **Spur gearboxes** - custom gearboxes we design and make ourselves, using regular gears side by side between plates. They take more work, but can be packaged to fit the mechanism, offset the output from the motor, and combine multiple motors onto one output.
+
+<figure>
+<img src="./images/maxplanetary.jpg" alt="MAXPlanetary gearbox" width="350">
+<figcaption>MAXPlanetary with 5:1, 4:1 and 3:1 stages, a 60:1 reduction (image: REV Robotics)</figcaption>
+</figure>
 
 ## Choosing a Ratio
 

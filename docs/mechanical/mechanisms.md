@@ -8,6 +8,11 @@ A quick overview of the common mechanisms on FRC robots. For more detail and exa
 
 The base of the robot that drives it around the field.
 
+<figure>
+<img src="./images/drivebase.jpg" alt="Drivebase of 9976, our offseason team" width="450">
+<figcaption>Drivebase of 9976, our offseason team (photo: Hayley Yu)</figcaption>
+</figure>
+
 ### Swerve Drive
 
 Each wheel is on its own module that can both drive and steer, so the robot can move in any direction while facing any way. It takes two motors per module. Most competitive teams use swerve.
@@ -27,7 +32,16 @@ Picks game pieces up off the floor or from a human player station. Usually spinn
 - **Over the bumper** - reaches out over the bumpers, often on a pivot, to grab game pieces
 - **Under the bumper** - sits inside the frame and grabs game pieces through a gap under the bumpers
 
-<!-- ![Intake](./images/mechanism-intake.jpg) -->
+<div class="figure-row photos">
+<figure>
+<img src="./images/slap-down.jpg" alt="Slap down intake">
+<figcaption>Slap down intake: pivots out over the bumper</figcaption>
+</figure>
+<figure>
+<img src="./images/lintake.jpg" alt="Linear intake">
+<figcaption>Linear intake: slides out over the bumper (photo: Hayley Yu)</figcaption>
+</figure>
+</div>
 
 ## Indexer
 
@@ -41,7 +55,10 @@ Launches game pieces at a target using one or more fast spinning wheels (flywhee
 
 - **Hood** - an adjustable surface the game piece rolls along as it leaves, which changes the shot angle for different distances
 
-<!-- ![Shooter](./images/mechanism-shooter.jpg) -->
+<figure>
+<img src="./images/intake-and-shooter.jpg" alt="Our 2026 robot shooting" width="350">
+<figcaption>Our 2026 robot shooting (photo: Hayley Yu)</figcaption>
+</figure>
 
 ## Turret
 
@@ -56,28 +73,22 @@ Lifts a mechanism straight up and down on sliding stages, usually driven by a be
 - **Cascade** - each stage is pulled by the one below it, so all stages move at the same time. It's fast, but the lower stages carry more load.
 - **Continuous** - one rope runs through all the stages, which move one after another. The load is spread evenly, but the rope path is longer and harder to rig.
 
-<!-- ![Elevator](./images/mechanism-elevator.jpg) -->
+<figure>
+<img src="./images/scr25-elevator.jpg" alt="Our 2025 robot's elevator" width="320">
+<figcaption>Our 2025 robot's elevator (left)</figcaption>
+</figure>
 
 ## Arm
 
-A mechanism that rotates around a pivot to move something up, down, in or out. Arms need a lot of torque when horizontal, see [Understanding Torque](./understanding-torque#pivot-arm).
+A mechanism that rotates around a pivot to move something up, down, in or out. Arms need the most torque when horizontal.
 
 - **Wrist** - a smaller pivot at the end of an arm or elevator, to angle whatever is on the end
 - **Telescoping arm** - an arm that also extends in length
 
-<!-- ![Arm](./images/mechanism-arm.jpg) -->
-
-## Four-Bar Linkage
-
-Two parallel bars joined at both ends that swing together. The end moves in an arc but stays at the same angle, which is useful for lifting something while keeping it level.
-
-<!-- ![Four-bar linkage](./images/mechanism-four-bar.jpg) -->
-
-## End Effector
-
-Whatever is on the end of an arm or elevator that holds and releases the game piece, e.g. rollers, a claw or a suction cup.
-
-<!-- ![End effector](./images/mechanism-end-effector.jpg) -->
+<figure>
+<img src="./images/mrt25-pivot-arm.jpg" alt="Pivot arm on 9976, our offseason team" width="450">
+<figcaption>Pivot arm on 9976, our offseason team, 2025</figcaption>
+</figure>
 
 ## Climber
 
@@ -87,4 +98,13 @@ Lifts the robot off the ground at the end of the match, usually by hooking onto 
 - **Telescoping hook** - extends a hook up to the bar, then pulls back down
 - **Ratchet or brake** - holds the robot up after the match ends and the power turns off
 
-<!-- ![Climber](./images/mechanism-climber.jpg) -->
+<div class="figure-row photos">
+<figure>
+<img src="./images/scr25-climber.jpg" alt="Our 2025 robot climbing">
+<figcaption>2025: hanging from the cage, in a triple climb</figcaption>
+</figure>
+<figure>
+<img src="./images/climbing.jpg" alt="Our 2026 robot climbing">
+<figcaption>2026 (photo: Hayley Yu)</figcaption>
+</figure>
+</div>

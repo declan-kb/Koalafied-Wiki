@@ -2,6 +2,11 @@
 
 **Overall requirement:** Explain the main considerations and techniques for bellypan layout.
 
+<figure>
+<img src="./images/flipped-drivebase.jpg" alt="Working on the brainpan of a flipped drivebase" width="450">
+<figcaption>Working on the brainpan of our flipped drivebase</figcaption>
+</figure>
+
 **Explain the key considerations that arise when laying out the core electronics in the robot**
 
 Laying out the bellypan/brainpan changes every year, but there are some things that stay the same every year. The first thing to consider are the space that has been given to work in by mechanical, understanding where the crossbeams are in the drivebase, where the battery will go, and where wires can leave the brainpan are key, along with ensuring nothing is too close to swerve modules. Minimising wire lengths, especially for special cables like main power, USB, and Ethernet are good rules of thumb, and tend to help with organisation by reducing crisscrossing in the brainpan. The only absolute position requirement is that the pigeon needs to be as close to the middle of the robot as possible.

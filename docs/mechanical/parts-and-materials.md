@@ -41,6 +41,17 @@ Check specifically what is available before designing around a gearbox.
 | Sport | Fixed ratios, e.g. 4:1, 16:1, 48:1, 100:1 | 100:1 | Falcon 500. Other motors may be compatible, but not Krakens (we don't have the input hardware) | AndyMark |
 | VEX VersaPlanetary | 3:1, 4:1, 5:1, 7:1, 9:1, 10:1 stages | 30:1 on brushless motors | Falcon 500 and all brushed motors | No longer available, existing stock only |
 
+<div class="figure-row photos">
+<figure>
+<img src="./images/maxplanetary.jpg" alt="MAXPlanetary gearbox">
+<figcaption>MAXPlanetary with 5:1, 4:1 and 3:1 stages, a 60:1 reduction (image: REV Robotics)</figcaption>
+</figure>
+<figure>
+<img src="./images/sport.jpg" alt="AndyMark Sport gearbox">
+<figcaption>Sport gearbox (image: AndyMark)</figcaption>
+</figure>
+</div>
+
 We have a servo-actuated ratchet available for the Sport gearbox only.
 
 ## Gears, Sprockets & Chain

@@ -12,7 +12,6 @@ New to CAD? Start with [Onshape Setup](./onshape).
 
 ## Fundamentals
 
-- [Understanding Torque](./understanding-torque): the physics behind gears, arms and climbers
 - [Power Transmission Basics](./power-transmission-basics): gear ratios, gears, belts, chain, shafts and bearings
 - [FRC Robot Rules Basics](./frc-robot-rules): weight, perimeter, extension and bumper rules
 - [Mechanisms](./mechanisms): what each common FRC mechanism is

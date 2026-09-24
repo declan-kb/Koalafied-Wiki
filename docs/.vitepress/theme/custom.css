@@ -68,6 +68,23 @@
   box-sizing: border-box;
 }
 
+/* <div class="figure-row photos">: photos at the same height, full frame */
+.vp-doc .figure-row.photos figure {
+  width: auto;
+}
+.vp-doc .figure-row.photos img {
+  width: auto;
+  max-width: 100%;
+  height: 220px;
+  object-fit: cover;
+  padding: 0;
+}
+/* Wrap captions to the image width instead of widening the figure */
+.vp-doc .figure-row.photos figcaption {
+  width: 0;
+  min-width: 100%;
+}
+
 /* Some diagrams are transparent PNGs with black lines: give every
    picture a white card in dark mode so they stay readable. */
 .dark .vp-doc img {
